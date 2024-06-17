@@ -80,10 +80,9 @@ export const environment: ValtimoConfig = {
   uploadProvider: UploadProvider.OPEN_ZAAK,
   defaultDefinitionTable: defaultDefinitionColumns,
   customDefinitionTables: {
-    leningen: [
+    vergunningsaanvraag: [
       ...defaultDefinitionColumns,
-      {propertyName: '$.voornaam', translationKey: 'firstName', sortable: true},
-      {propertyName: 'relatedFiles', translationKey: 'files', sortable: true, viewType: 'relatedFiles'}
+      {propertyName: '$.aanvrager.contactgegevens.voornaam', translationKey: 'firstName', sortable: true}
     ]
   },
   customTaskList: {
