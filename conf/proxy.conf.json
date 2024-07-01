@@ -1,24 +1,24 @@
 {
     "/api/*": {
-      "target": "https://8080-fluteijnutr-valtimoacad-d07tx0j5132.ws-eu114.gitpod.io",
+      "target": "https://8080-fluteijnutr-valtimoacad-q31xq7kwjxa.ws-eu114.gitpod.io",
       "secure": false,
       "logLevel": "debug",
       "changeOrigin": true
     },
     "/management/*": {
-      "target": "https://8080-fluteijnutr-valtimoacad-d07tx0j5132.ws-eu114.gitpod.io",
+      "target": "https://8080-fluteijnutr-valtimoacad-q31xq7kwjxa.ws-eu114.gitpod.io",
       "secure": false,
       "logLevel": "debug",
       "changeOrigin": true
     },
     "/v3/*": {
-      "target": "https://8080-fluteijnutr-valtimoacad-d07tx0j5132.ws-eu114.gitpod.io",
+      "target": "https://8080-fluteijnutr-valtimoacad-q31xq7kwjxa.ws-eu114.gitpod.io",
       "secure": false,
       "logLevel": "debug",
       "changeOrigin": true
     },
     "/mock-api/*": {
-      "target": "https://8080-fluteijnutr-valtimoacad-d07tx0j5132.ws-eu114.gitpod.io",
+      "target": "https://8080-fluteijnutr-valtimoacad-q31xq7kwjxa.ws-eu114.gitpod.io",
       "secure": false,
       "logLevel": "debug",
       "changeOrigin": true,

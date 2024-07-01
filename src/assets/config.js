@@ -8,8 +8,8 @@
   window['env']['keycloakUrl'] = 'https://keycloak-nonprod.tnfm3jthqkv1.valtimo.cloud';
   window['env']['keycloakRealm'] = 'valtimo-test';
   window['env']['keycloakClientId'] = 'valtimo-console';
-  window['env']['keycloakRedirectUri'] = 'https://4200-fluteijnutr-valtimoacad-j72w626gypx.ws-eu114.gitpod.io/keycloak/callback';
-  window['env']['keycloakLogoutRedirectUri'] = 'https://4200-fluteijnutr-valtimoacad-j72w626gypx.ws-eu114.gitpod.io';
-  window['env']['whiteListedDomain'] = 'https://4200-fluteijnutr-valtimoacad-j72w626gypx.ws-eu114.gitpod.io';
+  window['env']['keycloakRedirectUri'] = 'https://4200-fluteijnutr-valtimoacad-qgl5lc4ozvb.ws-eu114.gitpod.io/keycloak/callback';
+  window['env']['keycloakLogoutRedirectUri'] = 'https://4200-fluteijnutr-valtimoacad-qgl5lc4ozvb.ws-eu114.gitpod.io';
+  window['env']['whiteListedDomain'] = 'https://4200-fluteijnutr-valtimoacad-qgl5lc4ozvb.ws-eu114.gitpod.io';
   window['env']['openZaakCatalogusId'] = '';
 })(this);
