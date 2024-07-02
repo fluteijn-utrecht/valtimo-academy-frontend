@@ -1,4 +1,14 @@
 {
+  "connector": {
+    "SmartDocuments": {
+      "description": "Een service om documenten te genereren (zoals DOCX of PDF) aan de hand van templates.",
+      "title": "Smart documents"
+    },
+    "WordpressMail": {
+      "description": "Een email service die wordpress gebruikt om templates te vullen.",
+      "title": "Wordpress mail"
+    }
+  },
   "events": {
     "TaskCompletedEvent": "Taak afgerond <i class=\"mdi mdi-arrow-right\"></i> {{taskName}}",
     "TaskAssignedEvent": "Taak toegewezen <i class=\"mdi mdi-arrow-right\"></i> {{taskName}}",
@@ -22,7 +32,8 @@
       "maps": "Kaarten",
       "documents": "Documenten",
       "custom-dossier": "Custom dossier",
-      "custom-maps": "Custom maps"
+      "custom-maps": "Custom maps",
+      "notice": "Notities"
     }
   },
   "document": {
@@ -277,7 +288,20 @@
     "createdOn": "Aangemaakt op",
     "lastModified": "Laatst gewijzigd op",
     "files": "Bestanden",
-    "firstName": "Voornaam"
+    "firstName": "Voornaam",
+    "terugbelnotitie": {
+      "backOffice": "In behandeling bij",
+      "customerName": "Naam klant",
+      "customerPhone": "Telefoonnummer klant",
+      "dateCreated": "Datum aangemaakt",
+      "dateDeadline": "Deadline",
+      "hogePrio": "Spoed",
+      "product": "Product",
+      "statusIntern": "Status",
+      "subject": "Onderwerp",
+      "zaakNumber": "Zaaknummer",
+      "zaakStatus": "Zaakstatus"
+    }
   },
   "list": {
     "currentPage": "Pagina {{current}} van {{total}}",
@@ -293,5 +317,15 @@
     "takePicture": "Foto maken",
     "save": "Opslaan",
     "redo": "Opnieuw"
+  },
+  "searchFields": {
+    "customerName": "Naam klant",
+    "customerPhone": "Telefoonnummer klant",
+    "product": "Product",
+    "statusIntern": "Status",
+    "subject": "Onderwerp",
+    "zaakNumber": "Zaaknummer",
+    "aanmaker": "Aanmaker",
+    "assigneeFullName": "Behandelaar"
   }
 }
